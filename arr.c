@@ -1,5 +1,4 @@
 #include <stdio.h>  //  'cause thats standard
-#include <time.h>   //  for time_t
 #include <stdlib.h> //  for rand and srand
 
 #define sizeofarr(a) (sizeof(a)/sizeof(a[0]))   //  too lazy to count your no. of elements? use this!
