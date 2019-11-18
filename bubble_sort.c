@@ -1,4 +1,4 @@
-#include "arr.c"
+#include <stdio.h>
 
 /*  swap it with a 3rd variable: make a function to make it look sec(c) */
 void swap(int *xp, int *yp){

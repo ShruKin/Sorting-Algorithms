@@ -1,4 +1,4 @@
-#include "arr.c"
+#include <stdio.h>
 
 /*  meet insertion sort here   */
 void insertion_sort(int arr[], int size){
