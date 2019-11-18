@@ -3,6 +3,7 @@
 #include "insertion_sort.c"
 #include "selection_sort.c"
 #include "merge_sort.c"
+#include "quick_sort.c"
 
 int main(int argc, char const *argv[])
 {
@@ -48,7 +49,9 @@ int main(int argc, char const *argv[])
 
             case 5: selection_sort(arr, size);  break;
 
-            case 6: merge_sort(arr, 0, size);   break;
+            case 6: merge_sort(arr, 0, size-1);   break;
+
+            case 7: quick_sort(arr, 0, size-1); break;
 
             default: printf("Wrong choice! Try again");
 
